@@ -1,0 +1,28 @@
+{
+  "name": "parse-args",
+  "version": "0.1.0",
+  "description": "a collection of functions to parse arguments",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Phil Olson",
+  "license": "ISC",
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "tedent": "github:olsonpm/tedent"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-personal": "github:olsonpm/eslint-config-personal",
+    "prettier": "^2.0.4"
+  },
+  "eslintConfig": {
+    "extends": "personal"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
