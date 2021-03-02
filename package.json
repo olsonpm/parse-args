@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "camelcase": "^6.0.0",
-    "tedent": "github:olsonpm/tedent"
+    "tedent": "github:olsonpm/tedent#15402221495ad39cb04153ab04a2d758b119a8bb"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
