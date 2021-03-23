@@ -1,12 +1,12 @@
 {
-  "name": "parse-args",
+  "name": "@olsonpm/parse-args",
   "version": "0.1.1",
   "description": "a collection of functions to parse arguments",
   "main": "lib/index.js",
   "scripts": {},
   "keywords": [],
   "author": "Phil Olson",
-  "license": "ISC",
+  "license": "WTFPL",
   "dependencies": {
     "camelcase": "^6.0.0",
     "tedent": "github:olsonpm/tedent#15402221495ad39cb04153ab04a2d758b119a8bb"
@@ -24,5 +24,16 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/parse-args.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olsonpm/parse-args/issues"
+  },
+  "homepage": "https://github.com/olsonpm/parse-args#readme"
 }
